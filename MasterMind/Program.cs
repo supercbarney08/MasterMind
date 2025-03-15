@@ -35,7 +35,6 @@ void PlayGame()
 {
     Random rnd = new Random();
     int[] solution = [rnd.Next(1, 6), rnd.Next(1, 6), rnd.Next(1, 6), rnd.Next(1, 6)];
-    Console.WriteLine($"THE ANSWER {string.Concat(solution)}");
     var solved = false;
     var turns = 10;
     while (!solved && turns > 0)
